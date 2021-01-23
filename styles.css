@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Bodoni Moda';
+}
+/*NAVBAR*/
+header{
+    background: url(images/Dark\ Grey\ Red\ Material\ Design\ 4K\ Wallpaper.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #FFF;
+    height: 100vh;
+    position: relative;
+}
+.overlay{
+    background:rgba(0,0,0,0.3);
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    position:absolute;
+}
+.navbar-light {
+	background-color:transparent !important;
+	border-color:transparent !important;
+	background-image:none !important;
+    box-shadow:none;	
+}
+.navbar-brand{
+    font-size: 45px;
+    font-weight: bold;
+    color:#fff !important; 
+    padding:0px 40px;
+}
+
+.nav-link {
+   font-size:20px; 
+   color:#fff !important; 
+    padding:10px 30px !important;
+}
+.nav-link:hover{
+    color: lightblue !important;
+     border-bottom: 1px solid #FFF;
+}
+.navbar-toggler {
+    margin:10px 0; 
+    background:#fff; 
+}
+/*NAVBAR ENDS*/
+.home h2{
+    padding-top:200px;
+    padding-left:100px;
+    line-height:0.2;
+}
+.home h1{
+    padding-top:250px;
+    padding-left:100px;
+    line-height:0.2;
+}
+.home h3{
+    padding-top:300px;
+    padding-left:100px;
+    line-height:0.2;
+}
+.home h2{
+    color:#fff !important;
+    position: absolute;
+    font-size:40px;
+}
+.home h1{
+    color:#fff !important;
+    position: absolute;
+    font-size:60px;
+}
+.home h3{
+    color:#fff !important;
+    position: absolute;
+    font-size:30px;
+}
+.img1{
+    border-radius:50%;
+    width:50%;
+    height:50%;
+}
