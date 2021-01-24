@@ -12,6 +12,19 @@ header{
     height: 100vh;
     position: relative;
 }
+.navbar {
+	position: fixed !important;
+	width: 100%;
+	z-index: 999;
+	padding: 20px 0;
+	font-family: ubuntu, sans-serif;
+    transition: all .3s ease;
+    
+}
+.sticky {
+	padding: 15px 0;
+	background: skyblue !important;
+}
 .overlay{
     background:rgba(0,0,0,0.3);
     width:100%;
@@ -20,12 +33,7 @@ header{
     left:0;
     position:absolute;
 }
-.navbar-light {
-	background-color:transparent !important;
-	border-color:transparent !important;
-	background-image:none !important;
-    box-shadow:none;	
-}
+
 .navbar-brand{
     font-size: 45px;
     font-weight: bold;
@@ -48,19 +56,19 @@ header{
 }
 /*NAVBAR ENDS*/
 .home h2{
-    padding-top:200px;
-    padding-left:100px;
+    margin-top:200px;
+    margin-left:100px;
     line-height:0.2;
 }
 .home h1{
-    padding-top:250px;
-    padding-left:100px;
+    margin-top:250px;
+    margin-left:100px;
     line-height:0.2;
 }
 .home h3{
-    padding-top:300px;
-    padding-left:100px;
-    line-height:0.2;
+    margin-top:310px;
+    margin-left:100px;
+    line-height:1;
 }
 .home h2{
     color:#fff !important;
@@ -70,15 +78,29 @@ header{
 .home h1{
     color:#fff !important;
     position: absolute;
-    font-size:60px;
+    font-size:80px;
 }
 .home h3{
     color:#fff !important;
     position: absolute;
     font-size:30px;
 }
-.img1{
-    border-radius:50%;
-    width:50%;
-    height:50%;
+.home span{
+    color:#B22222;
+    font-weight:500;
+    font-size: 40px;
+    position: absolute;
+    margin-top:290px;
+    margin-left:250px;
+}
+.img1 img{
+    position:absolute;
+    border-radius:50% !important;
+    width:350px !important;
+    height:350px !important;
+    margin-top:100px;
+    margin-left:800px;
+}
+.about-me{
+    text-align: center;
 }
