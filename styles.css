@@ -12,18 +12,19 @@ header{
     height: 100vh;
     position: relative;
 }
+
 .navbar {
 	position: fixed !important;
 	width: 100%;
 	z-index: 999;
 	padding: 20px 0;
-	font-family: ubuntu, sans-serif;
+	font-family: 'Bodoni Moda';
     transition: all .3s ease;
     
 }
 .sticky {
-	padding: 15px 0;
-	background: skyblue !important;
+	padding: 5px 0 !important;
+	background: #B22222 !important;
 }
 .overlay{
     background:rgba(0,0,0,0.3);
@@ -40,21 +41,33 @@ header{
     color:#fff !important; 
     padding:0px 40px;
 }
-
+.navbar-brand span{
+    color:#B22222;
+}
+.sticky .navbar-brand span{
+    color:#fff;
+}
+.sticky .navbar-nav li a:hover{
+    color:#fff !important;
+}
 .nav-link {
    font-size:20px; 
    color:#fff !important; 
     padding:10px 30px !important;
 }
 .nav-link:hover{
-    color: lightblue !important;
-     border-bottom: 1px solid #FFF;
+    color: #B22222 !important;
+    transition: all 0.5s ease;
+}
+#nav-link:hover{
+    color:#fff !important;
 }
 .navbar-toggler {
     margin:10px 0; 
     background:#fff; 
 }
 /*NAVBAR ENDS*/
+/*HOME*/
 .home h2{
     margin-top:200px;
     margin-left:100px;
@@ -100,7 +113,107 @@ header{
     height:350px !important;
     margin-top:100px;
     margin-left:800px;
+    border:5px solid #fff;
+    box-shadow: 0px 0px 8px  rgba(255,255,255,.7);
 }
+/*HOME ENDS*/
+/*ABOUT*/
 .about-me{
+    padding-top:100px;
     text-align: center;
 }
+.fancy span{
+    background-image: url(https://i.gifer.com/80qW.gif);
+	background-size: cover;
+	color: transparent;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 70px;
+	line-height: .75;
+	margin: 10px 0;
+}
+.about-img{
+    margin-top:40px;
+    width:75%;
+    box-shadow: 0px 0px 70px rgba(29, 24, 24, 0.09);
+    border: 10px solid #fff;
+}
+.description h2{
+    margin-top:70px;
+    font-size:25px;
+    font-weight: bolder;
+}
+.typing2{
+    color:#B22222;
+}
+.description p{
+    font-size:21px;
+    margin-top:40px;
+}
+.description a{
+    font-weight: bolder;
+    border-radius:5px;
+    padding:7px 25px;
+    background-color: #B22222;
+    text-decoration: none;
+    font-size:25px;
+    color:#fff;
+    border:2px solid #3c4245;
+    transition:all 0.4s ease-in-out;
+}
+.description a:hover{
+    color:#B22222;
+    background-color: #fff;
+}
+/*ABOUT ENDS*/
+/*Expertise*/
+.expertise{
+    background-color: black;
+    height:700px;
+}
+.expert h1{
+    text-align:center;
+    padding-top:50px;
+    margin-top:100px;
+    font-weight:bolder;
+    font-size:40px;
+    color:#fff;
+}
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: center;
+    width:100%;
+    margin-top:50px;
+}
+.card{
+    background-color: #282828;
+    color:white;
+    margin:0px 20px 0px 20px;
+    
+    overflow: hidden;
+}
+.card-title{
+    text-align:center;
+    font-size:28px;
+    font-weight: bolder;
+}
+.card-text{
+    margin-top:15px;
+    font-size:20px;
+    text-align: center;
+}
+.card:hover{
+    background-color:#B22222;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.card-body i{
+    font-size:40px;
+    margin-left:150px;
+    color:skyblue;
+    margin-bottom:15px;
+}
+/*Expertise Ends*/
