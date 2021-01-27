@@ -6,15 +6,16 @@
     <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
     <link href='https://fonts.googleapis.com/css?family=Bodoni Moda' rel='stylesheet'>
-
+    
 </head>
 <body>
     <header>
         <div class="overlay">
             <nav class="navbar navbar-expand-md ">
-                <a href="" class="navbar-brand">Portfo<span>lio</span></a>
+                <a href="#home" class="navbar-brand">Portfo<span>lio</span></a>
                 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarToggle">
                     <span class="navbar-toggler-icon my-toggler"></span>
                 </button>
@@ -27,19 +28,19 @@
                             <a href="#expertise" class="nav-link">Expertise</a>
                         </li>
                         <li class="navi-item">
-                            <a href="#" class="nav-link">Skills</a>
+                            <a href="#skills" class="nav-link">Skills</a>
                         </li>
                         <li class="navi-item">
-                            <a href="#" class="nav-link">Projects</a>
+                            <a href="#Projects" class="nav-link">Projects</a>
                         </li>
                         <li class="navi-item">
-                            <a href="#" class="nav-link">Contact</a>
+                            <a href="#contact" class="nav-link">Contact</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </div>
-        <div class="home">
+        <div class="home" id="home">
             <h2>Hello, my name is</h2>
             <br>
             <h1>Biswas Singodia</h1>
@@ -79,21 +80,21 @@
         </div> 
         <div class="row row-cols-1 row-cols-md-3 g-4">
             <div class="col">
-                <div class="card h-100">
+                <div class="card ">
                     <div class="card-body">
                         <i class="fas fa-paint-brush"></i>
                         <h5 class="card-title">Web Design</h5>
                         <p class="card-text">Web design encompasses many different skills and disciplines in the production and maintenance of websites. The different areas of web design include web graphic design; user interface design; authoring, including standardised code and proprietary software; user experience design; and search engine optimization. </p>
                     </div>
                 </div>
-                <div class="card h-100">
+                <div class="card ">
                     <div class="card-body">
                         <i class="fas fa-chart-line"></i>
                         <h5 class="card-title">Programming</h5>
                         <p class="card-text">Computer programmer skills are methods and processes that provide computers with instructions on what actions to perform. Collectively known as “code,” these instructions are written by computer programmers to solve problems or perform specific tasks.</p>
                     </div>
                 </div>
-                <div class="card h-100">
+                <div class="card ">
                     <div class="card-body">
                         <i class="fas fa-code"></i>
                         <h5 class="card-title">Full Stack Developer</h5>
@@ -106,10 +107,139 @@
         </div>
         </div>
     </section>
+    <section class="skills" id="skills">
+        <div class="container">
+            <div class="my-skill">
+                <h1>My Skills</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-5 creative">
+                    <h2>
+                        My creative skills & experiences 
+                    </h2>
+                    <p>Creativity is an invaluable trait for a developer or a programmer. The different perspective to look towards 
+                        a code or a problem and solving it the most efficient and fastest way is something that can only be learnt thorugh experience and 
+                        a lot of practice. Creative Thinking is a way to develop novel or unorthodox solutions that do not depend wholly on past 
+                        or current solutions.
+                    </p>
+                </div>
+                <div class="col-md-7 sk">
+                    <div class="space">
+                    <h5>HTML</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width:90%">90%</div>
+                    </div>
+                    <h5>CSS</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width:80%">80%</div>
+                    </div>
+                    <h5>JAVASCRIPT</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width:60%">60%</div>
+                    </div>
+                    <h5>BOOTSTRAP</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width:60%">60%</div>
+                    </div>
+                    <h5>PYTHON</h5>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width:70%">70%</div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="Projects" id="Projects">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="my-project">
+                    <h2>My Projects</h2>
+                    <h4>What have done so far?</h4>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="my-slider">
+            <div class="item rounded">
+                <img src="images/1_TzbmJ5RWXeyjnT1ZuG664A.png" alt="" class="img-fluid">
+                <div class="place-about">
+                <h3 class="text-center">Hangman Game</h3>
+                <h4 class="text-center">A game developed using Javascript</h4>
+               </div>
+            </div>
+            <div class="item">
+                <img src="images/istock_gravity.jpg" alt="">
+                <div class="place-about">
+                <h3 class="text-center">Space</h3>
+                <h4 class="text-center">Check out your weights on planets</h4>
+            </div>
+            </div>
+            <div class="item">
+                <img src="images/turnefferesort_0013_1.jpg" alt="">
+                <div class="place-about">
+                <h3 class="text-center">Tourism</h3>
+                <h4 class="text-center">SPA on amazing island spots</h4>
+            </div>
+            </div>
+            <div class="item">
+                <img src="images/unnamed.png" alt="">
+                <div class="place-about">
+                <h3 class="text-center">Anime</h3>
+                <h4 class="text-center">Multi-page site</h4>
+            </div>
+            </div>
+            <div class="item">
+                <img src="images/Fotolia_84625850_XS.jpg" alt="">
+                <div class="place-about">
+                <h3 class="text-center">Ongoing</h3>
+                <h4 class="text-center">Working on something new</h4>
+            </div>
+            </div> 
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-me">
+                    <h2>Contact Me</h2>
+                </div>
+                <div class="col-md-5 ">
+                    <div class="details">
+                        <i class="fas fa-user "></i>
+                        <div class="name">
+                            <h3>Name</h3>
+                            <h4>Biswas Singodia</h4>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <i class="fas fa-map-marker-alt "></i>
+                        <div class="name">
+                            <h3>Address</h3>
+                            <h4>Siliguri</h4>
+                        </div>
+                    </div>
+                    <div class="details">
+                        <i class="fas fa-envelope-open-text"></i>
+                        <div class="name">
+                            <h3>E-Mail</h3>
+                            <h4>beastbiswas23@gmail.com</h4>
+                        </div>
+                    </div>
+                </div>
 
-
-
+                <div class="col-md-7">
+                    <form>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
     <script src="typed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>

@@ -1,3 +1,13 @@
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if(this.scrollY>20){
+            $('.navbar').addClass('sticky');
+        }
+        else{
+            $('.navbar').removeClass('sticky');
+        }
+    });
+    
 var typed=new Typed(".typing",{
     strings:["Self Learner.","Developer.","Designer."],
     smartBackspace:true,
@@ -14,13 +24,14 @@ var typed=new Typed(".typing2",{
     backSpeed:60,
     cursorChar:'|'
 });
-$(document).ready(function(){
-    $(window).scroll(function(){
-        if(this.scrollY>20){
-            $('.navbar').addClass('sticky');
-        }
-        else{
-            $('.navbar').removeClass('sticky');
-        }
-    })
+var slider = tns({
+  "container": ".my-slider",
+  "items": 3,
+  "mouseDrag": true,
+  "slideBy": "page",
+  "swipeAngle": false,
+  "speed": 400
+  });
+
 });
+
