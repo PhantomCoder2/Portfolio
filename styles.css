@@ -432,18 +432,12 @@ footer{
 }
 @media(min-width:768px) and (max-width:991px){
     .home h2{
-        color:#fff !important;
-        position: absolute;
         font-size:25px;
     }
     .home h1{
-        color:#fff !important;
-        position: absolute;
         font-size:40px;
     }
     .home h3{
-        color:#fff !important;
-        position: absolute;
         font-size:25px;
     }
     .home span{
@@ -484,6 +478,29 @@ footer{
         color:#B22222;
         outline:-webkit-focus-ring-color auto 1px;
         font-weight:bolder;
+    }
+}
+@media(min-width:600px) and (max-width:767px){
+    .img1 img{
+        width:270px !important;
+        height:270px !important;
+        margin-left:auto;
+        left: 210px !important;
+        bottom:0;
+    }
+    .home h2{
+        font-size:25px;
+    }
+    .home h1{
+        font-size:50px;
+    }
+    .home h3{
+        font-size:25px;
+    }
+    .home span{
+        font-size: 28px;
+        margin-top:300px;
+        margin-left:220px;
     }
 }
 /*MEDIA QUERIES ENDS*/
