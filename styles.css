@@ -455,13 +455,6 @@ footer{
         margin-left:40%;
         margin-right:auto;
     }
-    .col{
-        display: flexbox;
-        justify-content: space-between;
-        align-self: center;
-        width:100% !important;
-        margin-top:50px;
-    }
     .sk{
         margin-top:120px;
     }
@@ -502,5 +495,97 @@ footer{
         margin-top:300px;
         margin-left:220px;
     }
+    .col{
+        width:100% !important;
+        display:block !important;
+    }
+    .col .card{
+        height:50%;
+    }
+    .expertise{
+        height:100%;
+    }
+    .card-body i{
+        margin-left:45%;
+        margin-right:auto;
+    }    
+    .item{
+        display:table-cell !important;
+    }
+    .item img{
+        width:40%;
+    }
+    .my-slider h3{
+        font-size:24px;
+    }
+    .my-slider h4{
+        font-size:18px;
+    }
+    .line{
+        display:block !important;
+        margin:20px 0px 2px 0px !important;
+    }
+    .line2{
+        display:block !important;
+    }
+}
+@media(max-width:599px){
+    .img1 img{
+        width:45% !important;
+        height:39% !important;
+        top: 20;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .home h2{
+        font-size:25px;
+    }
+    .home h1{
+        font-size:40px;
+    }
+    .home h3{
+        font-size:25px;
+    }
+    .home span{
+        font-size: 28px;
+        margin-top:300px;
+        margin-left:220px;
+    }
+    .col{
+        width:100% !important;
+        display:block !important;
+    }
+    .col .card{
+        width:95% !important;
+        height:50%;
+    }
+    .expertise{
+        height:100%;
+    }
+    .card-body i{
+        margin-left:45%;
+        margin-right:auto;
+    }   
+    .item{
+        display:table-cell !important;
+    }
+    .item img{
+        width:40%;
+    }
+    .my-slider h3{
+        font-size:24px;
+    }
+    .my-slider h4{
+        font-size:18px;
+    }
+    .line{
+        display:block !important;
+        margin:20px 0px 2px 0px !important;
+    }
+    .line2{
+        display:block !important;
+    } 
 }
 /*MEDIA QUERIES ENDS*/
