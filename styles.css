@@ -258,6 +258,9 @@ header{
 }
 /*Skills End*/
 /*Projects*/
+.my-slider a{
+    text-decoration: none;
+}
 .Projects{
     height:700px;
     background-color: black;
